@@ -48,7 +48,8 @@ export default class Utils {
       case 'NT 6.1': return '7';
       case 'NT 6.2': return '8';
       case 'NT 6.3': return '8.1';
-      case 'NT 10.0': return '10';
+      case 'NT 10.0': return '10'; 
+      case 'NT 10.0': return '11';    
       default: return undefined;
     }
   }
